@@ -1,6 +1,8 @@
 #include "mainwindow.h"
-#include <QApplication>
+#include <QCoreApplication>
 #include <QPushButton>
+#include "newspaper.h"
+#include "reader.h"
 
 int main(int argc, char *argv[])
 {
@@ -10,11 +12,15 @@ int main(int argc, char *argv[])
      *     connect (sender, singal, receiver, slot)
      */
 
-    QApplication app(argc, argv);
+    QCoreApplication app(argc, argv);
 
-    QPushButton button("Quit");
-    QObject :: connect(&button, &QPushButton::clicked, &QApplication::quit);
+    //QPushButton button("Quit");
+    //QObject :: connect(&button, &QPushButton::clicked, &QApplication::quit);
 
-    button.show();
+    //button.show();
+    Newspaper newspaper('Newspaper A');
+    Reader reader;
+    QObject :: connect(&newspaper, SIGNAL(newspaer(QString)),
+                       &reader, SLOT(receivePaper(QString)));
     return app.exec();
 }
