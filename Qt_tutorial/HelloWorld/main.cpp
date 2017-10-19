@@ -1,13 +1,20 @@
 #include "mainwindow.h"
 #include <QApplication>
-#include <QLabel>
+#include <QPushButton>
 
 int main(int argc, char *argv[])
 {
+    // !! Qt5
+    /* Singal in Qt
+     * The general format:
+     *     connect (sender, singal, receiver, slot)
+     */
+
     QApplication app(argc, argv);
 
-    QLabel label("Hello world");
-    label.show();
+    QPushButton button("Quit");
+    QObject :: connect(&button, &QPushButton::clicked, &QApplication::quit);
 
+    button.show();
     return app.exec();
 }
