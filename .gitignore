@@ -1,2 +1,8 @@
 *.user
-
+*.caffemodel
+*.prototxt
+./CaffeDemo/modeldir/*
+*.binaryproto
+*.txt
+*.npy
+*.jpg
