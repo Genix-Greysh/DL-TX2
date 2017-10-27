@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/app/search/vis/!svn/ver/36173/trunk/facesdk/models/face_align/multi_view
+END
+model_weight_stageI.caffemodel
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/app/search/vis/!svn/ver/31117/trunk/facesdk/models/face_align/multi_view/model_weight_stageI.caffemodel
+END
+net_deploy_stageII.prototxt
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/app/search/vis/!svn/ver/31117/trunk/facesdk/models/face_align/multi_view/net_deploy_stageII.prototxt
+END
+model_weight_stageI.caffemodel$
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/app/search/vis/!svn/ver/33647/trunk/facesdk/models/face_align/multi_view/model_weight_stageI.caffemodel$
+END
+facialLandmarksModel.mean
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/app/search/vis/!svn/ver/25402/trunk/facesdk/models/face_align/multi_view/facialLandmarksModel.mean
+END
+net_deploy_stageII.prototxt$
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/app/search/vis/!svn/ver/33647/trunk/facesdk/models/face_align/multi_view/net_deploy_stageII.prototxt$
+END
+facialLandmarksModel.cdnn
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/app/search/vis/!svn/ver/25402/trunk/facesdk/models/face_align/multi_view/facialLandmarksModel.cdnn
+END
+model_weight_stageII.caffemodel
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/app/search/vis/!svn/ver/36173/trunk/facesdk/models/face_align/multi_view/model_weight_stageII.caffemodel
+END
+net_deploy_stageI.prototxt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/app/search/vis/!svn/ver/31117/trunk/facesdk/models/face_align/multi_view/net_deploy_stageI.prototxt
+END
+model_weight_stageII.caffemodel$
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/app/search/vis/!svn/ver/33647/trunk/facesdk/models/face_align/multi_view/model_weight_stageII.caffemodel$
+END
+net_deploy_stageI.prototxt$
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/app/search/vis/!svn/ver/33647/trunk/facesdk/models/face_align/multi_view/net_deploy_stageI.prototxt$
+END
